@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: aqua;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.outer{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.box{
+    height: 32%;
+    width: 32%;
+    color: red;
+    font-size: 35px;
+    border-radius: 15px;
+    margin-right: 4px;
+    border: 1px solid rgb(96, 92, 92);
+    background-color: rgb(130, 89, 168);
+}
+
+#reset{
+    background-color: black;
+    color: white;
+    margin-top: 35px;
+    font-size: 19px;
+    padding: 5px;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    border-radius: 0.5rem;
+}
+
+#new-btn{
+    background-color: black;
+    color: white;
+    margin: 15px 0 15px;
+    font-size: 19px;
+    padding: 5px;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    border-radius: 0.5rem;
+}
+
+#msg{
+    color: rgba(225, 32, 32, 0.89);
+    font-size: 35px;
+}
+
+.msgCon{
+    margin-bottom: 15px;
+}
+
+.hide{
+    display: none;
+}
